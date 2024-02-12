@@ -1,3 +1,13 @@
 #heading {
   background-color: aquamarine;
 }
+
+#root.Logo img {
+  float: left; /* Float the image to the left */
+  margin-right: 20px; /* Add some right margin to create space between the image and other content */
+  width: 100px;
+  height: auto;
+}
+.search-container {
+  text-align: center;
+}

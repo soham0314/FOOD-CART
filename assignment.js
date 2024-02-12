@@ -63,3 +63,5 @@ const ReactElement = React.createElement(
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<title2 />);
+
+// 2nd Question :
