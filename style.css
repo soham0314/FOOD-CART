@@ -1,13 +1,17 @@
-#heading {
-  background-color: aquamarine;
+.Header {
+  display: flex;
+  justify-content: space-between;
 }
 
-#root.Logo img {
-  float: left; /* Float the image to the left */
-  margin-right: 20px; /* Add some right margin to create space between the image and other content */
-  width: 100px;
-  height: auto;
+.logo {
+  width: 75px;
 }
-.search-container {
-  text-align: center;
+
+.navigation-bar > ul {
+  display: flex;
+}
+
+.navigation-bar > ul > li {
+  padding: 8px;
+  margin: 8px;
 }
