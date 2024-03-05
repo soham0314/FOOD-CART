@@ -1,6 +1,7 @@
 .Header {
   display: flex;
   justify-content: space-between;
+  border: 1px groove grey;
 }
 
 .logo {
@@ -9,9 +10,34 @@
 
 .navigation-bar > ul {
   display: flex;
+  list-style-type: none;
+  padding-right: 10px;
 }
 
 .navigation-bar > ul > li {
   padding: 8px;
   margin: 8px;
+}
+
+.search-Bar {
+  padding: 10px;
+}
+
+.resto-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.res-card {
+  margin: 20px;
+  width: 170px;
+  height: 250px;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+.res-card:hover {
+  border: 1px groove grey;
+  cursor: pointer;
+}
+.res-logo {
+  width: 190px;
 }

@@ -25,10 +25,52 @@ const Header = () => {
   );
 };
 
+const Restocard = () => {
+  return (
+    <div className="res-card">
+      <img
+        className="res-logo"
+        alt="res-logo"
+        src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/"
+      />
+      <h3>Kiosk Kaffee</h3>
+      <h4>Beverages</h4>
+      <h4>4.4 stars</h4>
+    </div>
+  );
+};
+
+const Body = () => {
+  return (
+    <div className="Body">
+      <div className="search-Bar">search</div>
+      <div className="resto-container">
+        <Restocard />
+        <Restocard />
+        <Restocard />
+        <Restocard />
+        <Restocard />
+        <Restocard />
+        <Restocard />
+        <Restocard />
+        <Restocard />
+        <Restocard />
+        <Restocard />
+        <Restocard />
+        <Restocard />
+        <Restocard />
+        <Restocard />
+        <Restocard />
+      </div>
+    </div>
+  );
+};
+
 const AppLayout = () => {
   return (
     <div className="app">
       <Header />
+      <Body />
     </div>
   );
 };
